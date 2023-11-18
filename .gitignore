@@ -1,0 +1,3 @@
+# Ignorar a pasta de logs
+__pycache__
+.vscode
