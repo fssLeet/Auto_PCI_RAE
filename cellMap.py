@@ -1,0 +1,58 @@
+Rae_11AGO2023 = {
+    "Nome_Prop": "G43",
+    "Cpf_Prop": "AJ43",
+    "Tel_Prop": "AR43",
+    "Nome_RT": "G46",
+    "Crea_RT": "Z46",
+    "Cpf_RT": "AJ46",
+    "Tel_RT": "AR46",
+    "End": "G49",
+    "Compl": "AL49",
+    "Bairro": "G51",
+    "CEP": "V51",
+    "Municipio": "AA51",
+    "Matricula": "Q53",
+    "Oficio": "AA53",
+}
+
+
+Cells_11_08_2023 = {
+    "Nome_Prop": "G44",
+    "Cpf_Prop": "AK44",
+    "Tel_Prop": "AS44",
+    "Nome_RT": "G50",
+    "Crea_RT": "AB50",
+    "Cpf_RT": "AK50",
+    "Tel_RT": "AS50",
+    "End": "G54",
+    "Compl": "AJ54",
+    "Bairro": "G56",
+    "CEP": "V56",
+    "Municipio": "AA56",
+    "Matricula": "G58",
+    "Oficio": "M58",
+    "Prazo": "AS141",
+    "Inidencia_Pointer": "X99",
+    "Crono_Pointer": "AO145",
+}
+
+# IGUAL 08_06_2022 e 04_05_2022
+Cells_28_06_2022 = {
+    "Nome_Prop": "G43",
+    "Cpf_Prop": "AK43",
+    "Tel_Prop": "AS43",
+    "Nome_RT": "G46",
+    "Crea_RT": "AB46",
+    "Cpf_RT": "AK46",
+    "Tel_RT": "AS46",
+    "End": "G53",
+    "Compl": "AJ53",
+    "Bairro": "G55",
+    "CEP": "V55",
+    "Municipio": "AA55",
+    "Matricula": "G57",
+    "Oficio": "M57",
+    "Prazo": "AS141",
+    "Inidencia_Pointer": "X98",
+    "Crono_Pointer": "AO144",
+}
