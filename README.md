@@ -39,9 +39,11 @@ Dados do proponente (nome, cpf, telefone), RT (nome, cpf, telefone), endereço, 
 ### 2. Os dados não foram copiados ?
 
 * Provavelmente foi utilizado uma PCI/RAE antiga com versão de 2021 
-* O arquivo excel da PCI/RAE está bloqueado (clica com botão direito no arquivo > propriedades > desbloquear)
+* O arquivo do excel da PCI/RAE está bloqueado (clica com botão direito no 'arquivo da planilha': > propriedades > desbloquear)
 * O proponente/RT modificou o arquivo excel PCI/RAE
-* Existe algum erro no arquivo excel da PCI/RAE (tente abrir no excel e corrigir).
+* Existe algum erro no arquivo excel da PCI/RAE (tente abrir no excel e salvar novamente o arquivo).
+
+![Desbloquear](img/desbloquear.png)
 
 ### 3. As formulas, formatação ou outros campos da RAE são modificadas ?
 
