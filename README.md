@@ -3,6 +3,7 @@
 Esse programa preenche automaticamente a RAE com os dados da PCI
 
 # [DOWNLOAD](https://github.com/fssLeet/Auto_PCI_RAE/releases/download/download/Auto_PCI_RAE_v0.1.exe)
+![Erro Download](img/download.png)
 
 ### Video
 https://github.com/fssLeet/Auto_PCI_RAE/assets/88219921/7d04320d-ce50-40f2-b357-e905abd1ad5c
@@ -23,7 +24,7 @@ Selecione a RAE (compatível apenas com a versão 11-AGO-2023)
 ```
 Clique em "Fim" na mensagem de erro da RAE e/ou PCI
 ```
-![Logo do Meu Projeto](img/fim.png)
+![Erro Fim](img/fim.png)
 <br>*Obs: esse erro é da própria planilha* 
 ```
 Atenção: Após a cópia automática confira todos o dados!
