@@ -1,6 +1,8 @@
 from tkinter import filedialog
 from tkinter import messagebox
 import time
+import re
+import webbrowser
 import xlwings as xw
 import cellMap
 import messages
@@ -61,6 +63,7 @@ for i in range(10):
 PCI_Cells["Crono_Pointer"] = Cro_Pointer
 Prazo = int(PCI.range(Prazo_Pointer).value)
 
+
 print("Abrindo arquivo do RAE... Clique em 'Fim' na mensagem de erro!")
 RAE = xw.Book(RAE_path).sheets["RAE"]
 
@@ -92,4 +95,57 @@ for i in range(Prazo):
     ).value
     print(RAE.range("AG" + str(72 + i)).value)
 
-input("Cópia Finalizada! Pode fechar essa janela...")
+
+verMapa = input(
+    """
+                Cópia Finalizada!
+                Pode fechar essa janela ou..
+                aperte 'Enter' para abrir o Google Maps com as coordenadas da PCI
+                Nota: confira as coordenadas, o RT pode ter errado!
+                """
+)
+
+
+def coordenadas(array):
+    size = len(array)
+    match size:
+        case 4:
+            return [str(array[0]), str(array[1]), str(array[2]) + "." + str(array[3])]
+        case 3:
+            return [str(array[0]), str(array[1]), str(array[2])]
+        case 2:
+            return [
+                str(array[0])[0:2],
+                str(array[0])[2:4],
+                str(array[0])[4:6] + "." + str(array[1]),
+            ]
+        case 1:
+            return [str(array[0])[0:2], str(array[0])[2:4], str(array[0])[4:]]
+
+
+lat = PCI.range(PCI_Cells["Lat"]).value
+long = PCI.range(PCI_Cells["Long"]).value
+
+lat = re.findall(r"\d+", str(lat))
+long = re.findall(r"\d+", str(long))
+
+lat = coordenadas(lat)
+long = coordenadas(long)
+
+link = (
+    "https://www.google.com.br/maps/place/"
+    + str(lat[0])
+    + "°"
+    + str(lat[1])
+    + "'"
+    + str(lat[2])
+    + '"S+'
+    + str(long[0])
+    + "°"
+    + str(long[1])
+    + "'"
+    + str(long[2])
+    + '"W'
+)
+
+webbrowser.open(link)
