@@ -8,7 +8,7 @@ Esse programa preenche automaticamente a RAE com os dados da PCI
 *  Correções gerais
 
 
-# [DOWNLOAD](https://github.com/fssLeet/Auto_PCI_RAE/releases/download/download/Auto_PCI_RAE_v0.1.exe)
+# --------> [DOWNLOAD](https://github.com/fssLeet/Auto_PCI_RAE/releases/download/download/Auto_PCI_RAE_v0.1.exe)
 ![Erro Download](img/download.png)
 
 ### Video
