@@ -2,14 +2,13 @@
 
 Esse programa preenche automaticamente a RAE com os dados da PCI
 
+# --------> [DOWNLOAD](https://github.com/fssLeet/Auto_PCI_RAE/releases/download/download/Auto_PCI_RAE_v0.1.exe) <--------
+![Erro Download](img/download.png)
+
 #### Atualizações
 ##### v0.2 - [28.11.2023]
 *  Adicionada a opção de abrir o Google Maps com as coordenadas da PCI
 *  Correções gerais
-
-
-# --------> [DOWNLOAD](https://github.com/fssLeet/Auto_PCI_RAE/releases/download/download/Auto_PCI_RAE_v0.1.exe)
-![Erro Download](img/download.png)
 
 ### Video
 https://github.com/fssLeet/Auto_PCI_RAE/assets/88219921/7d04320d-ce50-40f2-b357-e905abd1ad5c
